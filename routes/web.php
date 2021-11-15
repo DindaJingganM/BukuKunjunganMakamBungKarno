@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BukuTamuController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+Route::get('/home','HomeController@index');
+Route::get('/bukutamu','BukuTamuController@index');
+Route::get('/galeri','GaleriController@index');
+Route::get('/contact','ContactController@index');
