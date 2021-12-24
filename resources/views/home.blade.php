@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,7 +51,7 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="" class="get-started-btn">LOGIN</a>
+      <a href="petugas" class="get-started-btn">LOGIN</a>
 
     </div>
   </header><!-- End Header -->
@@ -60,7 +61,7 @@
     <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
       <h1>SELAMAT DATANG,<br>Di Makam Bung Karno</h1>
       <h2>Kompleks Pemakaman Presiden Soekarno</h2>
-      <a href="" class="btn-get-started">LOGIN</a>
+      <a href="petugas" class="btn-get-started">LOGIN</a>
     </div>
   </section><!-- End Hero -->
 

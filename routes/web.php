@@ -21,3 +21,6 @@ Route::get('/home','HomeController@index');
 Route::get('/bukutamu','BukuTamuController@index');
 Route::get('/galeri','GaleriController@index');
 Route::get('/contact','ContactController@index');
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

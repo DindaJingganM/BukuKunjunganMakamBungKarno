@@ -9,4 +9,9 @@ class BukuTamuController extends Controller
     public function index(){
     	return view("bukutamu");
     }
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 }
